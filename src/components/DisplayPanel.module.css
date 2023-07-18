@@ -1,0 +1,35 @@
+.body {
+  background-color: #10002b;
+  width: 320px;
+  height: 220px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: auto;
+  margin-bottom: 0;
+  font-family: "Belanosima", sans-serif;
+  border: 3px solid #6c757d;
+  border-bottom: 0px;
+  box-sizing: border-box;
+}
+.body div {
+  color: #f8f9fa;
+  padding-right: 20px;
+}
+.input {
+  padding-bottom: 5px;
+  font-size: 35px;
+  font-weight: 600;
+  max-width: 280px;
+  overflow-x: scroll;
+}
+.result {
+  padding-bottom: 10px;
+  font-size: 25px;
+  min-height: 50px;
+}
+::-webkit-scrollbar {
+  height: 0;
+}
